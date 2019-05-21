@@ -59,6 +59,7 @@ namespace ScoreEvaluation
             if (TextScore1.Text != String.Empty)
             {
                 TextScore1.BackColor = EvalScore(int.Parse(TextScore1.Text));
+                if (TextScore1.BackColor == Color.White) TextScore1.Text = string.Empty;
             }
         }
 
@@ -74,6 +75,7 @@ namespace ScoreEvaluation
                 if (TextScore1.Text != String.Empty)
                 {
                     TextScore1.BackColor = EvalScore(int.Parse(TextScore1.Text));
+                    if (TextScore1.BackColor == Color.White) TextScore1.Text = string.Empty;
                 }
             }
         }
@@ -88,6 +90,7 @@ namespace ScoreEvaluation
             if (TextScore2.Text != String.Empty)
             {
                 TextScore2.BackColor = EvalScore(int.Parse(TextScore2.Text));
+                if (TextScore2.BackColor == Color.White) TextScore2.Text = string.Empty;
             }
         }
 
@@ -103,6 +106,7 @@ namespace ScoreEvaluation
                 if (TextScore2.Text != String.Empty)
                 {
                     TextScore2.BackColor = EvalScore(int.Parse(TextScore2.Text));
+                    if (TextScore2.BackColor == Color.White) TextScore2.Text = string.Empty;
                 }
             }
         }
@@ -117,6 +121,7 @@ namespace ScoreEvaluation
             if (TextScore3.Text != String.Empty)
             {
                 TextScore3.BackColor = EvalScore(int.Parse(TextScore3.Text));
+                if (TextScore3.BackColor == Color.White) TextScore3.Text = string.Empty;
             }
         }
 
@@ -132,6 +137,7 @@ namespace ScoreEvaluation
                 if (TextScore3.Text != String.Empty)
                 {
                     TextScore3.BackColor = EvalScore(int.Parse(TextScore3.Text));
+                    if (TextScore3.BackColor == Color.White) TextScore3.Text = string.Empty;
                 }
             }
         }
@@ -146,6 +152,7 @@ namespace ScoreEvaluation
             if (TextScore4.Text != String.Empty)
             {
                 TextScore4.BackColor = EvalScore(int.Parse(TextScore4.Text));
+                if (TextScore4.BackColor == Color.White) TextScore4.Text = string.Empty;
             }
         }
 
@@ -161,6 +168,7 @@ namespace ScoreEvaluation
                 if (TextScore4.Text != String.Empty)
                 {
                     TextScore4.BackColor = EvalScore(int.Parse(TextScore4.Text));
+                    if (TextScore4.BackColor == Color.White) TextScore4.Text = string.Empty;
                 }
             }
         }
